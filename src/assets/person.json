@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "firstName": "Manushi",
+        "lastName": "Shah",
+        "address": "Millwoods",
+        "city": "Edmonton",
+        "province": "AB",
+        "phone": "111-111-1111",
+        "lastUdpated": "2016-04-23"
+    },
+
+    {
+        "id": 2,
+        "firstName": "Prahil",
+        "lastName": "Shah",
+        "address": "Millwoods",
+        "city": "Edmonton",
+        "province": "AB",
+        "phone": "222-222-2222",
+        "lastUdpated": "2018-04-23"
+    },
+
+    {
+        "id": 3,
+        "firstName": "Bhaumik",
+        "lastName": "Shah",
+        "address": "SW",
+        "city": "Edmonton",
+        "province": "AB",
+        "phone": "333-333-3333",
+        "lastUdpated": "2017-04-23"
+    },
+
+    {
+        "id": 4,
+        "firstName": "Rohit",
+        "lastName": "Shah",
+        "address": "jamha road",
+        "city": "Edmonton",
+        "province": "AB",
+        "phone": "444-444-4444",
+        "lastUdpated": "2019-04-23"
+    },
+
+    {
+        "id": 5,
+        "firstName": "Nimisha",
+        "lastName": "Shah",
+        "address": "Millwoods",
+        "city": "Edmonton",
+        "province": "AB",
+        "phone": "555-555-5555",
+        "lastUdpated": "2020-04-23"
+    }
+]

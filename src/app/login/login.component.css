@@ -1,0 +1,68 @@
+/* Style for the main container */
+div {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Style for the heading */
+div h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style for the labels */
+div label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Style for the inputs */
+div input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Style for the error messages */
+div .error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+/* Style for the button */
+div button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Style for the button on hover */
+div button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the disabled button */
+div button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

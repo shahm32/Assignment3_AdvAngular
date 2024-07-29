@@ -1,0 +1,27 @@
+<div [formGroup]="loginForm">
+  <h2>Login</h2>
+
+  <label for="username">Username</label>
+  <input id="username" formControlName="username" [(ngModel)]="user.username" type="text" />
+  <div *ngIf="loginForm.get('username')?.invalid && (loginForm.get('username')?.dirty || loginForm.get('username')?.touched)" class="error">
+    <div class="error" *ngIf="loginForm.get('username')?.hasError('required') && loginForm.get('username')?.touched">
+      Username is required.
+    </div>
+    <div class="error" *ngIf="loginForm.get('username')?.hasError('minlength') && loginForm.get('username')?.touched">
+      Username must be at least 3 characters long.
+    </div>
+  </div>
+
+  <label for="password">Password</label>
+  <input id="password" formControlName="password" [(ngModel)]="user.password" type="password" />
+  <div *ngIf="loginForm.get('password')?.invalid && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched)" class="error">
+    <div class="error" *ngIf="loginForm.get('password')?.hasError('required') && loginForm.get('password')?.touched">
+      Password is required.
+    </div>
+    <div class="error" *ngIf="loginForm.get('password')?.hasError('minlength') && loginForm.get('password')?.touched">
+      Password must be at least 6 characters long.
+    </div>
+  </div>
+
+  <button [disabled]="loginForm.invalid" (click)="login()">Login</button>
+</div>
